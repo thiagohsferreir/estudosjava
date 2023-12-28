@@ -10,16 +10,17 @@ public class Program {
 		Product product;
 		
 		System.out.println("Enter product data: ");
-		product = new Product();
+		
 		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Name: ");
-		product.name = sc.next();
+		String name = sc.next();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
-		System.out.print("Quantity: ");
-		product.quantity = sc.nextInt();
+		double price = sc.nextDouble();
+		product = new Product(name, price);
+		
+		
 		
 		System.out.println("Product Data " + product);
 		

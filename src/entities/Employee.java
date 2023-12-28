@@ -12,7 +12,7 @@ public class Employee {
 	
 	public void IncreaseSalary(double percentage) {
 		
-		this.grossSalary = grossSalary + ((grossSalary*percentage) / 100);
+		this.grossSalary += grossSalary*percentage / 100;
 		
 		
 	}
