@@ -49,6 +49,7 @@ public class VecEx10 {
 			}
 			
 		}
+		sc.close();
 		
 	}
 	

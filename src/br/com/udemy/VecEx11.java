@@ -65,7 +65,7 @@ public class VecEx11 {
 		System.out.printf("Media das alturas das mulheres = %.2f\n",
 				alturaM / (n - homem));
 		System.out.println("Numero de homens = " + homem);
-
+		sc.close();
 	}
 
 }

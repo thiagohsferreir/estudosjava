@@ -56,7 +56,7 @@ public class VecEx3 {
 			}
 		}
 		
-
+		sc.close();
 	}
 
 }

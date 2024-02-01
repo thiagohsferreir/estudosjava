@@ -1,4 +1,4 @@
-package br.com.udemy;
+ package br.com.udemy;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class VecEx1 {
 				System.out.println(vect[i]);
 			}
 		}
-		
+		sc.close();
 	}
 
 }
